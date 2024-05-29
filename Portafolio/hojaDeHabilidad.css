@@ -1,0 +1,72 @@
+body{
+
+background-color: antiquewhite;
+
+}
+
+.contenedorDos{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+gap: 5px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.padre{
+
+    
+align-items: center;
+justify-content: space-around;
+display: flex;
+flex-direction: row;
+gap: 5px;
+
+
+}
+
+
+.padre-item{
+
+    flex-grow: 4;
+
+}
+
+.padre li{
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+
+}
+
+.padre img{
+
+    width: 66px;
+
+}
+.nieto{
+
+    display: none;
+    border: 1px solid #000000;
+
+}
+
+.hijo li:hover{
+
+border-color: aqua;
+
+}
+
+
+.hijo:hover > .nieto{
+
+   display: block;
+
+}
+

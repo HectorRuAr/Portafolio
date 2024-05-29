@@ -1,0 +1,538 @@
+
+body{
+
+    font-family: "M PLUS Code Latin", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      color: teal;
+
+}
+
+header{
+
+    /*background-color: lightgray;*/
+    background-color: #D9D9D9;
+    padding: 20px 0;
+    font-weight: bold;
+    
+    
+}
+
+
+.contenedorUno{
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: baseline;
+
+
+}
+
+.contenedorUno h1{
+
+    font-size: 20px;
+    
+    }
+
+.nombreInicial{
+
+display: flex;
+justify-content: space-around;
+gap: 15px;
+text-align: left; 
+margin: 25px 50px 0;
+font-weight: bold;
+font-size: 20px; 
+
+}
+
+
+nav{
+    margin: 25px 0 0;
+    top:110px;
+    right: 0 50px 0;
+
+}
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 15p;
+
+}
+
+nav a{
+
+    color: #074d64;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    
+    color: #2995D9;
+    /*color: rgb(67, 164, 224);*/
+    text-decoration: underline;
+
+}
+
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    
+    }
+
+    
+main{
+
+    background-color: #D9D9D9;
+
+}
+
+.conteSkillsHobbies{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 50px;
+    
+    }
+    
+    .conteSkillsHobbies p{
+    
+        
+        padding: 100px 65px 25px;
+        width: 85px;
+        font-weight: bold;
+        
+    }
+
+.presentacion{
+    
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     
+    }
+
+.tituloIndtroductorio{
+
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.parrafoDescripcion{
+
+    padding: 15px 0 0;
+    font-size: 20px;
+
+}
+
+.enlacesInfo{
+
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    text-align: left; 
+    font-weight: bold;
+    font-size: 20px; 
+
+}
+
+.retrato{
+
+    width: 256px;
+    padding: 0 25px 0;
+    float: right;
+    margin: 0 20px 20px 0;
+    border-radius: 75%;
+
+}
+
+
+.bio{
+
+background: linear-gradient(#D9D9D9,#CDD9BA);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+
+.tituloFinal{
+
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px 25px 0;
+
+}
+.bio p{
+    
+    margin: 0 0 1em;
+    font-size: 15px;
+    padding: 15px 25px 0;
+
+}
+
+.firmaCuadro
+{
+  
+display: flex;
+justify-content:flex-start;
+/*margin: 0 0 1em;*/
+padding: 5px 55px 0;
+background-color: #CDD9BA;
+
+}
+.firma{
+
+    width: 150px;
+    padding: 5px 55px 0;
+
+}
+
+footer{
+
+    /*background-color: rgb(214, 229, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    text-align: center;
+    background-color: #CDD9BA;
+    color: #401C14;
+    padding: 20px 0;
+    
+}
+
+/* Parte de Skills y Hobbies
+Acomodar cada lista para hacer un menu interactivo 
+*/
+
+
+.HyH{
+
+   display: flex;
+   justify-content: space-around;
+   /*margin: 15px;*/
+   background-color:#D9D9D9;
+    
+
+}
+
+img{
+
+width: 66px;
+
+}
+
+.HyH li{
+
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    color: #074d64;
+    vertical-align: top;
+    margin:  0 1.5% 0;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #CDD9BA;
+
+}
+
+ul{
+
+   list-style: none;
+    
+}
+
+.HyH li:hover
+{
+
+    border-color: #2995D9;
+
+}
+
+.experiencia{
+
+    display: none;
+    border: 1px solid #CDD9BA;
+    border-radius: 5px;
+ 
+ }
+ 
+ /*Se pude usar tambien el Hover para esta parte */
+
+ .habilidad:active > .experiencia{
+    
+    display: block;
+
+ }
+
+
+.HobbiesContenedor{
+
+   display: flex;
+   justify-content: space-around;
+   /*margin: 15px;*/
+   
+    
+
+}
+
+img{
+
+width: 66px;
+
+}
+
+
+.HobbiesContenedor li{
+
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    color: #401C14;
+    vertical-align: top;
+    margin:  0 1.5% 0;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #2995D9;
+
+}
+
+ul{
+
+   list-style: none;
+    
+}
+
+.HobbiesContenedor li:hover
+{
+
+    border-color: #2995D9;
+
+}
+
+.experienciah{
+
+    display: none;
+    border: 1px solid #2995D9;
+    border-radius: 5px;
+ 
+ }
+  
+.hobbies:hover > .experienciah{
+
+    display: block;
+
+}
+
+.footerSkills{
+
+    background: linear-gradient(#D9D9D9,#CDD9BA);
+
+ }
+
+ /* Seccion de Formacion */
+
+ .contenedorFormacion
+ {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: linear-gradient(#D9D9D9,#CDD9BA);
+
+ }
+
+ .formacionLugares{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: stretch;
+
+ }
+
+ .formacionLugares li{
+
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    width: 33%;
+    color: #401C14;
+    vertical-align: top;
+    margin:  0 1.5% 0;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #BFAF7E;
+
+ }
+
+ .formacionLugares img
+ {
+   width: 300px;
+   padding: 20px;
+   
+ }
+
+ .formacionLugares li:hover{
+
+   border: 3px solid #2995D9;
+
+ }
+
+
+ /*Seccion Contaco*/
+
+.contenedorContacto{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: linear-gradient(#D9D9D9,#CDD9BA);
+
+
+}
+
+.contenedorContacto img{
+
+     width: 700px;
+     height: 700px;
+
+}
+
+form{
+
+    margin: 40px 0;
+ 
+ } 
+ 
+ form label, form legend{
+ 
+     display: block;
+     font-size: 20px;
+     margin: 0 0 10px;
+ 
+ }
+ 
+ .input-padron{
+ 
+     display: block;
+     margin: 0 0 20px;
+     padding: 10px 25px;
+     width: 50%;
+     
+     }
+ 
+ .checkbox{
+ 
+     margin: 20px 0;
+ 
+ }
+ 
+ .enviar{
+     width: 40%;
+     padding: 15px 0;
+     font-size: 18px;
+     font-weight: bold;
+     color:white;
+     background: orange;
+     border:none;
+     border-radius: 5px;
+     transition: 1s all;
+     cursor:pointer;
+ }
+ 
+ .enviar:hover {
+     background: darkorange;
+     transform: scale(1.2);
+ }
+ 
+ table {
+     margin: 40px 40px;
+ }
+
+ /* Seccion Proyecto */
+
+ .contenedorProyectos{
+   
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding: 50px;
+   background: linear-gradient(#D9D9D9,#CDD9BA);
+
+ }
+
+ .contenedorProyectos img{
+
+   width: 900px;
+   height: 450px;
+
+ }
+
+ .listaProyectos li {
+ 
+ display: block;
+ margin: 0 0 20px;
+ gap: 5px;
+ padding: 10px 25px;
+ width: 50%;
+
+ }
+
+ .tituloProyecto p{
+
+    font-weight: bold;
+    padding: 15px;
+
+ }
+
+ .botonRepo{
+    width: 25%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #401C14;
+    background: #BFAF7E;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.botonDemo{
+    width: 25%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #401C14;
+    background: #2995D9;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+
